@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background: #8bc5bf;
+  color: #1B2430;
+  font-family: sans-serif;
+}
+.hero {
+  padding: 4rem 1.5rem;
+}
+
+.eyebrow {
+  font-family: monospace;
+  color: #1D9E75;
+  margin: 0 0 0.5rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem;
+}
+
+.dot {
+  color: #1D9E75;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #4B5563;
+  max-width: 500px;
+}
+.graph {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.cluster {
+  background: #F7F7F3;
+  border: 1px solid #C9CBC1;
+  border-radius: 4px;
+  padding: 1.25rem;
+}
+
+.cluster h3 {
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: #4B5563;
+  margin: 0 0 0.75rem;
+}
+
+.nodes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.node {
+  font-family: monospace;
+  font-size: 0.8rem;
+  background: #E1F5EE;
+  color: #04342C;
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.project-card {
+  display: block;
+  background: #F7F7F3;
+  border: 1px solid #C9CBC1;
+  border-radius: 4px;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card:hover {
+  border-color: #08eea5;
+}
+
+.project-card h3 {
+  margin: 0 0 0.5rem;
+  color: #1B2430;
+}
+
+.project-card p {
+  font-size: 0.92rem;
+  color: #4B5563;
+  margin: 0 0 0.75rem;
+}
+
+.stack {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: #1D9E75;
+}
+.timeline-row {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.98rem;
+}
+
+.timeline-year {
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: #4B5563;
+  min-width: 9ch;
+}
+footer {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: #4B5563;
+}
