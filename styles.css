@@ -125,3 +125,22 @@ footer {
   font-size: 0.9rem;
   margin-top: 1rem;
 }
+main {
+  padding: 0 1.5rem;
+}
+
+.section {
+  padding: 3rem 0;
+  border-bottom: 1px solid #C9CBC1;
+}
+
+.section-label {
+  font-family: monospace;
+  color: #1D9E75;
+  margin: 0 0 1rem;
+}
+
+.about-text {
+  font-size: 1.05rem;
+  max-width: 600px;
+}
